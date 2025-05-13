@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #14b8a6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0f766e;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chart-container {
+  width: 100%;
+  height: 250px;
+}
+
+ul.book-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.book-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+ul.book-list li:last-child {
+  border-bottom: none;
+}
+
+.book-title {
+  font-weight: 500;
+}
+
+.book-value {
+  color: #555;
+}

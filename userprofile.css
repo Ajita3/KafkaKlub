@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Profile Section */
+.profile-section {
+    background-color: #e9f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-item {
+    margin-bottom: 10px;
+}
+
+.profile-item label {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+.profile-item span {
+    font-size: 16px;
+}
+
+/* Search Section */
+.search-section {
+    margin-bottom: 30px;
+}
+
+.search-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#searchResults {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+/* Real-Time Data Section */
+.realtime-section {
+    padding: 10px;
+    background-color: #e9f5f5;
+    border-radius: 8px;
+}
+
+#realTimeData {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0088cc;
+}
