@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body {
+    font-family: sans-serif;
+    background-color: #e0f7fa; /* Light turquoise background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    padding: 50px; /* More padding inside */
+    width: 450px; /* Slightly wider */
+    text-align: center;
+}
+
+.login-wrapper {
+    width: 100%;
+}
+
+h2 {
+    color: #26a69a; /* Turquoise heading */
+    margin-bottom: 15px;
+    font-size: 2.2em;
+}
+
+.subtitle {
+    color: #757575;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #424242;
+    font-weight: bold;
+}
+
+label i {
+    margin-right: 8px;
+    color: #26a69a; /* Turquoise icon */
+}
+
+input::placeholder {
+    color: #b0bec5;
+}
+
+input {
+    width: calc(100% - 30px); /* Adjust for icon space */
+    padding: 14px; /* More padding */
+    border: 1px solid #b2dfdb; /* Light turquoise border */
+    border-radius: 6px; /* More rounded input fields */
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #26a69a; /* Turquoise button */
+    color: white;
+    padding: 16px 20px; /* More padding for button */
+    border: none;
+    border-radius: 6px; /* More rounded button */
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #00897b; /* Darker turquoise on hover */
+}
+
+.link {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+}
+
+.link a {
+    color: #26a69a; /* Turquoise link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}

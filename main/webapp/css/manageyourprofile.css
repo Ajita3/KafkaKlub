@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* resources/css/manageyourprofile.css */
+
+/* Chic Turquoise Color Palette */
+:root {
+    --turquoise-dark: #309088;
+    --turquoise-medium: #38ada9;
+    --turquoise-light: #e0f8f7;
+    --gray-light: #f4f4f4;
+    --gray-medium: #ddd;
+    --text-dark: #333;
+    --text-medium: #555;
+    --text-light: #777;
+    --error: red;
+    --success: green;
+    --white: #fff;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    padding: 20px;
+    background-color: var(--gray-light); /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--turquoise-medium); /* Chic Turquoise for heading */
+    margin-bottom: 20px;
+}
+
+.profile-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid var(--turquoise-medium); /* Chic Turquoise border */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Set a maximum width */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--text-medium); /* Medium gray for labels */
+    text-align: left; /* Align labels to the left */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray-medium); /* Medium gray border for inputs */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: var(--white); /* White input background */
+    color: var(--text-dark); /* Dark text for input */
+}
+
+.form-group small {
+    color: var(--text-light); /* Light gray for small text */
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.button-container {
+    text-align: center; /* Center buttons */
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: var(--turquoise-medium); /* Chic Turquoise for button */
+    color: var(--white); /* White button text */
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--turquoise-dark); /* Darker turquoise on hover */
+}
+
+.change-password {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--gray-medium); /* Medium gray border for change password */
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Set a maximum width */
+}
+
+.change-password h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: var(--turquoise-medium); /* Chic Turquoise for change password heading */
+    text-align: center;
+}
+
+.error-message {
+    color: var(--error); /* Red for error messages */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success-message {
+    color: var(--success); /* Green for success messages */
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* header.css */
+header#main-header { /* Added ID selector for the header */
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header#main-header .logo { /* More specific selector */
+    font-size: 26px;
+    font-weight: 700;
+    color: #33cfcf;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+header#main-header nav ul { /* More specific selector */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+header#main-header nav ul li a { /* More specific selector */
+    text-decoration: none;
+    color: #33cfcf;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+header#main-header nav ul li a:hover { /* More specific selector */
+    color: #20b2aa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header#main-header { /* More specific selector */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header#main-header nav ul { /* More specific selector */
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    header#main-header nav ul li { /* More specific selector */
+        margin: 10px 0;
+    }
+}
